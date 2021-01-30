@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".auth.AuthFragment">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/colorPrimary"
+        android:indeterminateTintMode="src_in"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/authContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="21dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/productivityAnim"
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            android:layout_marginTop="31dp"
+            app:lottie_fileName="note_animation.json"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+        <TextView
+            android:id="@+id/productivityLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/spinnaker"
+            android:gravity="center"
+            android:text="@string/improve_your_productivity_with_notes"
+            android:textColor="@color/light_grey"
+            android:textSize="27sp"
+            android:layout_marginTop="17dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/googleLoginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/custom_btn_background"
+            android:drawableStart="@drawable/google_logo"
+            android:fontFamily="@font/spinnaker"
+            android:text="@string/continue_with_google"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp"
+            android:layout_marginTop="45dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

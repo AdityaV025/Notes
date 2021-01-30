@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="improve_your_productivity_with_notes">Improve your productivity with Notes</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="preference_name">com.adityaverma.notes</string>
+    <string name="database_name">notesDB</string>
+    <string name="click_to_add_a_new_note">Click + to add a new note</string>
+    <string name="notes">Notes</string>
+    <string name="write_a_note">Write a note…</string>
+    <string name="title">Title</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="addNewNote">addNewNote</string>
+</resources>

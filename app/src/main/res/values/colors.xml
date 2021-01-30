@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#417de9</color>
+    <color name="colorPrimaryDark">#3463BA</color>
+    <color name="colorAccent">#2D2D2D</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#3B3B3B</color>
+    <color name="light_grey">#939393</color>
+    <color name="backgroundDark">#252525</color>
+
+    <array name="card_colors">
+        <item>#F7E39A</item>
+        <item>#FECE79</item>
+        <item>#F8A555</item>
+        <item>#F4806F</item>
+        <item>#F48093</item>
+        <item>#F390BC</item>
+        <item>#E4B7D4</item>
+        <item>#8A8BC3</item>
+        <item>#94CAE4</item>
+        <item>#9FD9DA</item>
+        <item>#97D1A9</item>
+        <item>#CAE189</item>
+    </array>
+
+</resources>
