@@ -59,8 +59,10 @@ class NewNoteFragment : Fragment() {
                 if (toEdit){
                     mOldNote.title = noteTitle.text.toString()
                     mOldNote.note_content = noteContent.text.toString()
+                    mOldNote.date = ConvertToDate().convertTimeStampToDate(System.currentTimeMillis())
                     notesViewModel.updateNote(mOldNote)
                     mView.findNavController().popBackStack()
+                    hideSoftKeyboard()
                 }else {
                     val newNote = Note(
                         title = noteTitle.text.toString(),
@@ -71,6 +73,7 @@ class NewNoteFragment : Fragment() {
                     )
                     notesViewModel.insertNote(newNote)
                     mView.findNavController().popBackStack()
+                    hideSoftKeyboard()
                 }
             }
         }
