@@ -60,7 +60,6 @@ class NewNoteFragment : Fragment() {
                     mOldNote.title = noteTitle.text.toString()
                     mOldNote.note_content = noteContent.text.toString()
                     notesViewModel.updateNote(mOldNote)
-                    hideSoftKeyboard()
                     mView.findNavController().popBackStack()
                 }else {
                     val newNote = Note(
@@ -71,7 +70,6 @@ class NewNoteFragment : Fragment() {
                         email = mUserEmail
                     )
                     notesViewModel.insertNote(newNote)
-                    hideSoftKeyboard()
                     mView.findNavController().popBackStack()
                 }
             }
@@ -106,6 +104,7 @@ class NewNoteFragment : Fragment() {
     }
 
     private fun goToNotesFragment() {
+        hideSoftKeyboard()
         mView.findNavController().navigate(R.id.action_newNoteFragment_to_notesFragment)
     }
 
