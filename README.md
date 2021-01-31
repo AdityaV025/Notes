@@ -9,6 +9,7 @@ Notes is a lightweight note-taking app built with Kotlin and Android Architectur
 - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Store UI-related data that isn't destroyed on app rotations. Easily schedule asynchronous tasks.
 - [Navigation](https://developer.android.com/guide/navigation/) - Handle everything needed for in-app navigation.
 - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - Build data objects that notify views when the underlying database changes.
+- [Lottie](https://github.com/airbnb/lottie-android) - Render Adobe After Effects Animations natively for android.
 
 ## Screenshots
 <img src="https://raw.githubusercontent.com/AdityaV025/Notes/master/Images/Screenshot_2021-01-30-22-55-15-283_com.adityaverma.notes.jpg" width = 230> <img src="https://raw.githubusercontent.com/AdityaV025/Notes/master/Images/Screenshot_2021-01-30-22-55-35-131_com.adityaverma.notes.jpg" width = 230> <img src = "https://raw.githubusercontent.com/AdityaV025/Notes/master/Images/Screenshot_2021-01-30-22-55-40-140_com.adityaverma.notes.jpg" width = 230> <img src = "https://raw.githubusercontent.com/AdityaV025/Notes/master/Images/Screenshot_2021-01-30-23-20-27-490_com.adityaverma.notes.jpg" width = 230>
